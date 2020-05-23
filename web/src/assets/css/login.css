@@ -1,0 +1,47 @@
+.page {
+    padding: 2rem 1.066667rem 0;
+    font-size: .4rem;
+}
+.hd {
+    font-size: .6rem;
+    height: .8rem;
+    line-height: .8rem;
+}
+.hd img {
+    width: .8rem;
+    height: .8rem;
+}
+.hd span {
+    padding: .4rem;
+}
+.form {
+    margin-top: 2rem;
+}
+.form div {
+    margin-bottom: .933333rem;
+    border-bottom: 1px solid #EEEEEE;
+}
+.form input {
+    border: none;
+    color: #B3B3B3;
+    margin-bottom: .4rem;
+}
+.form label {
+    margin-right: .533333rem;
+    position: relative;
+}
+.form label::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 1.066667rem;
+    height: .4rem;;
+    border-right: 1px solid #EEEEEE;
+}
+.form .submit {
+    /* background-color: #A5E0B8; */
+    height: 1.066667rem;
+    width: 100%;
+    border-radius: .533333rem;
+    color: #ffffff;
+}

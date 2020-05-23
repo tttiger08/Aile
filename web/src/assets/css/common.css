@@ -1,0 +1,30 @@
+html,
+body {
+    margin: 0;
+}
+html {
+    background-color: #ccc;
+}
+img {
+    vertical-align: bottom;
+}
+input {
+    outline: none;
+}
+body {
+    min-width: 320px;
+    max-width: 750px;
+    width: 10rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #FFFFFF;
+    color:#333333;
+    height: 2000px;
+    
+}
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
