@@ -5,6 +5,9 @@ body {
 html {
     background-color: #ccc;
 }
+div {
+    box-sizing: border-box;
+}
 img {
     vertical-align: bottom;
 }
@@ -20,7 +23,7 @@ body {
     font-family: Arial, Helvetica;
     background: #FFFFFF;
     color:#333333;
-    height: 2000px;
+    /* height: 2000px; */
     
 }
 @media screen and (min-width: 750px) {

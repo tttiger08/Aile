@@ -5,6 +5,7 @@ import router from './router'
 
 import './assets/css/normalize.css'
 import './assets/css/common.css'
+import './assets/iconfont/iconfont.css'
 
 import './assets/js/flexible.js'
 

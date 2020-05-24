@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Index from '../views/Index.vue'
+import Item from '../views/Item.vue'
 import Login from '../views/Login.vue'
+import NewItem from '../views/NewItem.vue'
+import Main from '../views/Main.vue'
+import Data from '../views/Data.vue'
+import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
@@ -16,12 +20,37 @@ Vue.use(VueRouter)
         title:'登录'
       }
     },
+    // {
+    //   path: '/',
+    //   name: 'Index',
+    //   component: Index,
+    //   meta:{
+    //     title:'艾乐教育'
+    //   }
+    // },
     {
-    path: '/',
-    name: 'Index',
-    component: Index
+      path: '/',
+      name: 'Main',
+      component: Main,
+      meta:{
+        title:'艾乐教育'
+      },
+      redirect: '/item',
+      children:[
+        {path:'/item',name:'item',component:Item,meta:{title:'艾乐教育'}},
+        {path:'/data',name:'data',component:Data,meta:{title:'资料库'}},
+        {path:'/home',name:'home',component:Home,meta:{title:'我的'}},
+      ]
     },
-  
+    {
+      path: '/newitem',
+      name: 'newitem',
+      component: NewItem,
+      meta:{
+        title:'新事项'
+      }
+    },
+    
 ]
 
 const router = new VueRouter({

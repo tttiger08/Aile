@@ -1,0 +1,121 @@
+
+.contain {
+    background:#FAFAFA url(../images/bg.png) no-repeat 0 -1.333333rem;
+    background-size: 10rem ;
+    padding: .8rem .4rem .066667rem;
+    font-size: .4rem;
+}
+.hd {
+    margin-bottom: .4rem;
+    color: #ffffff;
+}
+.contain span {
+    font-size: .266667rem;
+    padding-left: .133333rem;
+    
+}
+.my-items {
+    width: 9.2rem;
+    height: 3.333333rem;
+    background-color: #fff;
+    border-radius: .2rem;
+    box-shadow: .026667rem .026667rem .133333rem #ccc;
+    /* padding: .426667rem .426667rem 0;     */
+    padding-top: .426667rem;
+    position: relative;
+}
+.my-items span {
+    margin: 0 .426667rem ;
+    font-size: .4rem;
+}
+.link {
+    /* padding-top: .8rem; */
+    display: flex; 
+}
+.link div {
+    float: left;
+    margin-top: .266667rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 2.666667rem;
+}
+.link div:nth-child(2) {
+    flex: 1;
+}
+.link div span:nth-child(1) {
+    font-size: .4rem;
+}
+.link div span:nth-child(2) {
+    font-size: .266667rem;
+    color: #999999;
+}
+.item-nav {
+    margin-top: .2rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    position: relative;
+    padding-left: .333333rem;
+}
+.item {
+    margin-bottom: .333333rem;
+}
+.item-nav::before {
+    content: '';
+    width: .106667rem;
+    height: .4rem;
+    background-color: #FF8189;
+    border-radius: .026667rem;
+    position: absolute;
+    top: .32rem;
+    left: 0;
+}
+.new-item {
+    margin-bottom: .2rem;
+}
+.item {
+    height: 3.2rem;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: .2rem;
+    box-shadow: .026667rem .026667rem .133333rem #ccc;
+    padding: 0 .4rem;
+
+}
+.item-hd {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .266667rem;
+}
+.item img {
+    width: .4rem;
+    height: .533333rem;
+}
+.item-hd span {
+    color: #999999;
+    padding-top: .186667rem;;
+
+}
+.item-ft {
+    position: relative;
+}
+.more {
+    margin-top: .266667rem;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    color: #79D195;
+    position: absolute;
+    right: .2rem;
+}
+.more::after {
+    content: '';
+    width: .106667rem;
+    height: .106667rem;
+    border-top: 1px solid #79D195;
+    border-right: 1px solid #79D195;
+    position: absolute;
+    right: -0.2rem;
+    top: .146667rem;
+    transform: rotate(45deg);
+}
+

@@ -1,0 +1,37 @@
+{
+  "id": "1838346",
+  "name": "aile",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "790549",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "1053842",
+      "name": "待办事项",
+      "font_class": "webicon17",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "4933421",
+      "name": "文件夹",
+      "font_class": "wenjianjia",
+      "unicode": "e761",
+      "unicode_decimal": 59233
+    },
+    {
+      "icon_id": "11556692",
+      "name": "切换列",
+      "font_class": "qiehuanlie",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    }
+  ]
+}
